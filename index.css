@@ -1,29 +1,57 @@
+body {
+    margin: 0;
+}
 .container {
     display: flex;
     flex-flow: row wrap;
-    background-color: green;
+    align-items: center;
 }
 .header {
-    background-image: url('./images/sauce-glitch.gif');
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
     width: 100%;
-    height: 50%;
+    padding: 40 40;
+}
+.header-image {
+    margin-top: -80;
+    width: 50%;
+    height: 50vh;
+}
+.sub-menu-line {
+    width: 100%;
+    border: 2px solid #000;
+    border-width: 0 0 2px;
+}
+.sub-info {
+    width: 100%;
+}
+.sub-info-p {
+    margin: 8;
+    font-family: 'Roboto', sans-serif;
 }
 .about {
     background-color: beige;
     width: 50%;
+    font-family: 'Roboto Slab', serif;
+}
+#about-header {
+    margin: 0 50;
+    font-size: 6em;
+}
+#about-text {
+    font-family: 'Roboto Slab', serif;
+    border: 2px solid #000;
+    padding-left: 15px;
+    border-width: 0 0 0 2px;
+    display: inline-block;
 }
 .unknown {
-    background-color: blue;
+    background-color: red;
     width: 50%;
 }
 .social {
-    background-color: purple;
+    background-color: orange;
     width: 50%;
 }
 .email-capture {
-    background-color: orange;
+    background-color: green;
     width: 50%;
 }
