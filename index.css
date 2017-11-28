@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: green;
+}
+.header {
+    background-image: url('./images/sauce-glitch.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 50%;
+}
+.about {
+    background-color: beige;
+    width: 50%;
+}
+.unknown {
+    background-color: blue;
+    width: 50%;
+}
+.social {
+    background-color: purple;
+    width: 50%;
+}
+.email-capture {
+    background-color: orange;
+    width: 50%;
+}
