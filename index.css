@@ -21,30 +21,47 @@ body {
     border-width: 0 0 2px;
 }
 .sub-info {
-    width: 100%;
+    width: 50%;
+}
+#presents {
+    width: 50%;
 }
 .sub-info-p {
     margin: 8;
     font-family: 'Roboto', sans-serif;
 }
+.presents-p {
+    display: inline-block;
+    margin: 8;
+    font-family: 'Roboto', sans-serif;
+}
+.presents-p2 {
+    color: white;
+    padding: 5 5;
+    display: inline-block;
+    font-family: 'Roboto Slab', sans-serif;
+    background-color: black;
+}
 .about {
-    background-color: beige;
+    margin-top: 100px;
     width: 50%;
     font-family: 'Roboto Slab', serif;
+    text-align: right;
 }
 #about-header {
     margin: 0 50;
-    font-size: 6em;
+    font-size: 8em;
 }
 #about-text {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto', serif;
     border: 2px solid #000;
     padding-left: 15px;
     border-width: 0 0 0 2px;
     display: inline-block;
+    font-size: 1.5em;
 }
 .unknown {
-    background-color: red;
+    margin-top: 100px;
     width: 50%;
 }
 .social {
@@ -54,4 +71,9 @@ body {
 .email-capture {
     background-color: green;
     width: 50%;
+}
+
+.bottom-container {
+    display: flex;
+
 }
