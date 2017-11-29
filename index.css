@@ -11,7 +11,8 @@ body {
     padding: 40 40;
 }
 .header-image {
-    margin-top: -80;
+    margin: auto;
+    display: block;
     width: 50%;
     height: 50vh;
 }
