@@ -2,7 +2,7 @@
 $(document).ready(function() { 
 
     $('#fullpage').fullpage({
-        sectionsColor: ['#F8F8F8', 'black'],
+        sectionsColor: ['#F8F8F8', 'white'],
         anchors      : ['Home', 'Work'],
         afterLoad    : function(anchorLink, index) {
 

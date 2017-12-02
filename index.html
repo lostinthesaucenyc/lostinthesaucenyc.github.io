@@ -3,15 +3,22 @@
 <head>
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="fullpage.js/jquery.fullPage.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/jquery.fullpage.css" />
     <link rel="stylesheet" type="text/css" href="index.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" rel="stylesheet">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="fullpage.js/vendors/jquery.easings.min.js"></script>
-    <script type="text/javascript" src="fullpage.js/jquery.fullPage.js"></script>
-    <script type="text/javascript" src="index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/vendors/jquery.easings.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/jquery.fullpage.min.js"></script>
+    <script type="text/javascript" src="js/fp.js"></script>
+    <script type="text/javascript" src="js/countdown.js"></script>
 </head>
 
 <body>
+
+    <ul id="presents">
+      <li id="a">The Lost!</li>
+      <li id="b">Presents</li>
+    </ul>
 
     <!-- Container for all the pages -->
     <div id="fullpage" ng-app="ScrollApp">
@@ -24,7 +31,7 @@
 
         <!-- WORK PAGE -->
         <div class="section" id="section1">
-
+            <div id="countdown"></div>
         </div>
 
     </div>

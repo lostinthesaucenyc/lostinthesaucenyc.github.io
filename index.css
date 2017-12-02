@@ -4,3 +4,35 @@
     width: 75%;
     height: 75%;
 }
+
+#presents{
+  position:fixed;
+  top:0;
+  height: 40px;
+  z-index: 70;
+  width: 50%;
+  padding: 0;
+  margin-left: 40px;
+}
+#info {
+    width: 50%;
+    background-color:beige;
+}
+#presents li#a {
+  display:inline-block;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1em;
+  font-weight: bold;
+}
+#presents li#b {
+  display:inline-block;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1em;
+}
+#countdown {
+  font-family: 'Roboto Mono', monospace;
+}
