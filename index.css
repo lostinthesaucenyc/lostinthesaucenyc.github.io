@@ -46,9 +46,13 @@
 }
 #copyright {
     position:absolute;
+    margin-bottom: 10px;
     bottom: 0;
     left: 10px;
     font-family: 'Roboto Mono', monospace;
+}
+#presents {
+    margin-top: 10px;
 }
 #presents li#a {
   display:inline-block;
@@ -90,6 +94,16 @@
     order: 2;
     width: 50%;
 }
-#footer {
-    height: 150px;
+#footer-section {
+    margin-top: 20px;
+    text-align: center;
+    height: 100px;
+}
+#footer-text {
+    font-size: 2em;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+.fa-instagram {
+    color: white;
 }
