@@ -147,9 +147,10 @@
     border-width: 0 0 0 2px;
     padding-left: 25px;
     margin-left: 0px;
+    margin-right: 25px;
 }
 #countdown {
-    margin: 20px;
+    margin: 25px;
     order: 1;
     font-size: 4em;
 }
