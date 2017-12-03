@@ -1,5 +1,5 @@
 #section0 {
-    background-image: url('images/lits.png');
+    background-image: url('../images/lits.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -44,6 +44,63 @@
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: #000;
 }
+#home-anchor {
+    position:absolute;
+    top: 0;
+    right: 10px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 8em;
+}
+#home-anchor a {
+    text-decoration: none;
+    color: #000;
+    margin: 0;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #000;
+}
+#home-anchor a:hover {
+    text-decoration: none;
+    color: #000;
+    margin: 0;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #000;
+}
+#sauce-anchor {
+    position:absolute;
+    bottom: 0;
+    right: 10px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 8em;
+}
+#sauce-anchor a {
+    text-decoration: none;
+    color: #000;
+    margin: 0;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #000;
+}
+#sauce-anchor a:hover {
+    text-decoration: none;
+    color: #000;
+    margin: 0;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #000;
+}
+#social {
+    position:absolute;
+    bottom: 10px;
+    left: 15px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 4em;
+}
+#social a {
+    text-decoration: none;
+    color: #000;
+}
 #copyright {
     position:absolute;
     margin-bottom: 10px;
@@ -63,6 +120,14 @@
   font-weight: bold;
 }
 #presents li#b {
+    display:inline-block;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1em;
+}
+#presents li#c {
+    visibility: hidden;
     display:inline-block;
     -webkit-border-radius: 10px;
     border-radius: 10px;
@@ -94,16 +159,16 @@
     order: 2;
     width: 50%;
 }
-#footer-section {
-    margin-top: 20px;
-    text-align: center;
-    height: 100px;
+
+#section3 {
+    text-align:center;
 }
-#footer-text {
-    font-size: 2em;
-    color: white;
+#sauce-text {
     font-family: 'Roboto Mono', monospace;
+    font-size: 2em;
+    margin: 10px;
 }
-.fa-instagram {
-    color: white;
+.fa {
+    margin: 5px;
+    color: black;
 }

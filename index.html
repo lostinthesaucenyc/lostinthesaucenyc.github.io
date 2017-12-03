@@ -5,14 +5,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/jquery.fullpage.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-    <link rel="stylesheet" type="text/css" href="index.css" />
-    <link rel='stylesheet prefetch' href='lits.css'>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" rel="stylesheet">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/vendors/jquery.easings.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/jquery.fullpage.min.js"></script>
-    <script src='https://rawgit.com/juliangarnier/anime/master/anime.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js'></script>
     <script type="text/javascript" src="js/fp.js"></script>
     <script type="text/javascript" src="js/countdown.js"></script>
 </head>
@@ -22,6 +21,7 @@
     <ul id="presents">
       <li id="a">The Lost!</li>
       <li id="b">Presents</li>
+      <li id="c">Lost in the Sauce</li>
     </ul>
 
     <!-- Container for all the pages -->
@@ -40,6 +40,9 @@
 
         <!-- INFO PAGE -->
         <div class="section" id="section1">
+            <div id="home-anchor">
+                <a href="#Home"> h </a>
+            </div>
             <div id="about">
                 <div id="countdown"></div>
                 <div id="location">
@@ -57,23 +60,26 @@
                     Brought to you straight from my kitchen in Bedstuy.  I hope you like it. 
                 </blockquote>
             </div>
-        </div>
-
-        <!-- Footer -->
-        <div class="section fp-auto-height" id="section2">
-            <div id="footer-section">
+            <div id="social">
                 <a href="https://www.instagram.com/yumiyamsuan" target="_blank">
-                    <i class="fa fa-instagram" style="font-size:36px;" aria-hidden="true"></i>
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
                 </a>
-                <p id="footer-text"> ...get lost in the sauce  </p>
+                <a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MmY4MmoyaWk5cTluazk4aDQ4YjdnNzgza3Egc2FtdWVsLmpvbGkuZnRuQG0&tmsrc=samuel.joli.ftn%40gmail.com" target="_blank">
+                    <i class="fa fa-calendar-plus-o" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div id="sauce-anchor">
+                <a href="#Lits"> s </a>
             </div>
         </div>
 
+        <!-- Lost in the sauce audio  -->
         <div class="section" id="section3">
             <audio data-autoplay>
                 <source src="audio/gucci.mp3" type="audio/mpeg">
             </audio>
             <div class="wrapper"></div>
+            <p id="sauce-text"> ...get lost in the sauce... </p>
         </div>
 
     </div>

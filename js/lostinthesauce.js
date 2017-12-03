@@ -10,7 +10,6 @@ let tl = anime.timeline({
 });
 
 function createEl(i) {
-    console.log('What');
     let el = document.createElement('div');
     const rotate = (360 / numberOfEls) * i;
     const translateY = -(numberOfEls - i) * .5;

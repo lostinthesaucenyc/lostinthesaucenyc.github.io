@@ -2,9 +2,19 @@
 $(document).ready(function() { 
 
     $('#fullpage').fullpage({
-        sectionsColor: ['#F8F8F8', 'white', 'black', 'none'],
-        anchors      : ['Home', 'Info', 'Footer', 'Lits'],
+        sectionsColor: ['#F8F8F8', 'white', 'none'],
+        anchors      : ['Home', 'Info', 'Lits'],
         afterLoad    : function(anchorLink, index) {
+
+            if (index === 1) {
+                const target = $('#c');
+                target.css("visibility", "hidden");
+            }
+
+            if (index === 2) {
+                const target = $('#c');
+                target.css("visibility", "visible");
+            }
 
             if(index == 3) {
                 $('#work').fadeIn('slow').animate({ 
