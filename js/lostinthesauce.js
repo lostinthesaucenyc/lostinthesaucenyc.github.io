@@ -1,8 +1,8 @@
 const wrapperEl = document.querySelector('.wrapper');
-const numberOfEls = 72;
-const duration = 6000;
+const numberOfEls = 60;
+const duration = 9000;
 const delay = duration / numberOfEls;
-const gap = 10;
+const gap = 20;
 
 let tl = anime.timeline({
     duration: delay / 2,
