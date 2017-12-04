@@ -2,8 +2,8 @@
 $(document).ready(function() { 
 
     $('#fullpage').fullpage({
-        sectionsColor: ['#F8F8F8', 'white', 'none'],
-        anchors      : ['Home', 'Info', 'Lits'],
+        sectionsColor: ['#F8F8F8', 'white'],
+        anchors      : ['Home', 'Info'],
         afterLoad    : function(anchorLink, index) {
 
             if (index === 1) {

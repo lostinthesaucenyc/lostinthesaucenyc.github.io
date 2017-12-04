@@ -1,6 +1,6 @@
 const wrapperEl = document.querySelector('.wrapper');
 const numberOfEls = 60;
-const duration = 9000;
+const duration = 5000;
 const delay = duration / numberOfEls;
 const gap = 20;
 
