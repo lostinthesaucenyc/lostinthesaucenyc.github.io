@@ -2,10 +2,6 @@ html {
     margin:10px;
 }
 .wrapper {
-    background-image: url('../images/lits.png');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 75%;
     position: absolute;
     top: 0;
     width: 100%;
