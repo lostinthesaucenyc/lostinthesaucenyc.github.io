@@ -179,3 +179,26 @@
     clear:left;
     font-family: 'Roboto Mono', monospace;
 }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .fa {
+        font-size: 3em;
+        margin: 0px;
+        padding: 0px;
+    }
+    #social {
+        bottom: 40px;
+    }
+    #social a {
+        margin: 0px;
+    }
+    .fa-envelope-o {
+        width: 0px;
+    }
+    #mc_embed_signup {
+        font-size: 2em;
+    }
+    .required.email {
+        height: 30px;
+    }
+}
