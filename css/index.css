@@ -140,6 +140,7 @@ input:-webkit-autofill {
 }
 #about {
     display: flex;
+    margin: 50px 50px;
     flex-direction: row;
     align-items: center;
     font-family: 'Roboto Mono', monospace;
@@ -203,7 +204,8 @@ input:-webkit-autofill {
         padding: 0px;
     }
     #social {
-        top: 400px;
+        margin: 50px 50px;
+        top: 300px;
         left: 30px;
     }
     #social a {
