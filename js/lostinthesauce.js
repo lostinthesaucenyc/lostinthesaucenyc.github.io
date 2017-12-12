@@ -6,7 +6,7 @@ const gap = 20;
 
 let tl = anime.timeline({
     duration: delay / 2,
-    complete: function() { tl.restart(); }
+    complete: function() {}
 });
 
 function createEl(i) {
