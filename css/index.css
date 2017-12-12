@@ -1,3 +1,7 @@
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px whitesmoke inset;
+}
+
 #section0 {
     background-image: url('../images/lits.png');
     background-repeat: no-repeat;
@@ -174,15 +178,19 @@
     color: black;
 }
 
+#mc_embed_singup_scroll {
+    text-align: center;
+}
+
 #mc_embed_signup{
-    color: white;
+    color: black;
     clear:left;
     font-family: 'Roboto Mono', monospace;
     height: 400px;
 }
 
 #mce-EMAIL {
-    color: white;
+    color: black;
     outline:none;
     background-color:transparent;
     font-size: 1em;
@@ -207,8 +215,8 @@
         font-size: 2em;
     }
     #mce-EMAIL{
-        height: 30px;
-        font-size: 1em;
+        height: 50px;
+        font-size: 1.5em;
     }
     #mc_embed_signup{ 
         height: 600px;

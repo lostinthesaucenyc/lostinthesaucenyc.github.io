@@ -2,7 +2,7 @@
 $(document).ready(function() { 
 
     $('#fullpage').fullpage({
-        sectionsColor: ['#F8F8F8', 'white', 'black'],
+        sectionsColor: ['#F8F8F8', 'white', 'WhiteSmoke'],
         anchors      : ['Home', 'Info', 'MailChimp'],
         afterLoad    : function(anchorLink, index) {
 
