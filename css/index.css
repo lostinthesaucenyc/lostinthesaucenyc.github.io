@@ -203,7 +203,8 @@ input:-webkit-autofill {
         padding: 0px;
     }
     #social {
-        bottom: 40px;
+        top: 400px;
+        left: 30px;
     }
     #social a {
         margin: 0px;
