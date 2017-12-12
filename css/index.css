@@ -178,6 +178,7 @@
     color: white;
     clear:left;
     font-family: 'Roboto Mono', monospace;
+    height: 400px;
 }
 
 #mce-EMAIL {
