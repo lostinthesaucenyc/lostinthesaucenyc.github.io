@@ -210,4 +210,7 @@
         height: 30px;
         font-size: 1em;
     }
+    #mc_embed_signup{ 
+        height: 600px;
+    }
 }
