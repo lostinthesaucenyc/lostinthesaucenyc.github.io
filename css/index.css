@@ -180,6 +180,13 @@
     font-family: 'Roboto Mono', monospace;
 }
 
+#mce-EMAIL {
+    color: white;
+    outline:none;
+    background-color:transparent;
+    font-size: 1em;
+}
+
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     .fa {
         font-size: 3em;
@@ -198,7 +205,8 @@
     #mc_embed_signup {
         font-size: 2em;
     }
-    .required.email {
+    #mce-EMAIL{
         height: 30px;
+        font-size: 1em;
     }
 }
