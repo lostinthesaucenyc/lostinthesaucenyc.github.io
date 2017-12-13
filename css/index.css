@@ -1,6 +1,9 @@
 input:-webkit-autofill {
     -webkit-box-shadow: 0 0 0 30px whitesmoke inset;
 }
+input {
+    -webkit-appearance: none;
+}
 button:focus {outline:0;}
 
 #section0 {
@@ -274,7 +277,7 @@ button:focus {outline:0;}
     }
 
     .button {
-        width: 100px;
+        width: 300px;
         margin-left: 100px;
         font-size: 1em;
     }
