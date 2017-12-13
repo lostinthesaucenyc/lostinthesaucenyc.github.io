@@ -7,6 +7,7 @@ $(document).ready(function() {
         afterLoad    : function(anchorLink, index) {
 
             if (index === 1) {
+                initLostAnimation();
                 const target = $('#c');
                 target.css("visibility", "hidden");
             }

@@ -1,4 +1,4 @@
-function init() {
+function initCountdown() {
     // Set the date we're counting down to
     var countDownDate = new Date("Dec 17, 2017 15:37:25").getTime();
 
@@ -29,4 +29,4 @@ function init() {
     }, 1000);
 };
 
-init();
+initCountdown();
