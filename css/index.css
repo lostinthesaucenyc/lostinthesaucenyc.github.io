@@ -202,8 +202,7 @@ button:focus {outline:0;}
 #form-header {
     width: 100%;
 }
-.clear {
-}
+
 .mc-field-group {
     width: 50%;
 }
@@ -277,8 +276,13 @@ button:focus {outline:0;}
     }
 
     .button {
-        width: 300px;
-        margin-left: 100px;
+        width: 100%;
         font-size: 1em;
+    }
+    .clear {
+        width: 100%;
+    }
+    .mc-field-group {
+        width: 100%;
     }
 }
