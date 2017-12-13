@@ -1,6 +1,7 @@
 input:-webkit-autofill {
     -webkit-box-shadow: 0 0 0 30px whitesmoke inset;
 }
+button:focus {outline:0;}
 
 #section0 {
     background-image: url('../images/lits.png');
@@ -184,10 +185,24 @@ input:-webkit-autofill {
 }
 
 #mc_embed_signup{
-    color: black;
-    clear:left;
+    display: flex;
     font-family: 'Roboto Mono', monospace;
     height: 400px;
+}
+
+.subscribe-form {
+    margin: 40px;
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+#form-header {
+    width: 100%;
+}
+.clear {
+}
+.mc-field-group {
+    width: 50%;
 }
 
 #mce-EMAIL {
@@ -196,6 +211,39 @@ input:-webkit-autofill {
     background-color:transparent;
     font-size: 1em;
 }
+
+
+.button {
+    font-size: 1.5em;
+    background-color: whitesmoke;
+    border: none;
+    color: #FFFFFF;
+    width: 80px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.button:after {
+    background: #f1f1f1;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+
+
+
+
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     .fa {
@@ -223,5 +271,11 @@ input:-webkit-autofill {
     }
     #mc_embed_signup{ 
         height: 600px;
+    }
+
+    .button {
+        width: 100px;
+        margin-left: 100px;
+        font-size: 1em;
     }
 }
