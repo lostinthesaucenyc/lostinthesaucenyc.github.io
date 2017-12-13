@@ -23,10 +23,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/jquery.fullpage.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-    <link rel="stylesheet" type="text/css" href="css/index.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" rel="stylesheet">
     <link href="https://cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/vendors/jquery.easings.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/jquery.fullpage.min.js"></script>
@@ -95,10 +95,13 @@
 
                         <div class="mc-field-group">
                             <input 
+                                style="
+                                    border:none;
+                                    border-bottom:.5px solid black;
+                                    text-indent:0%;
+                                "
                                 type="email" 
                                 placeholder="Email"
-                                style="border:none;border-bottom: 2px solid
-                                black"
                                 name="EMAIL" 
                                 class="required email" 
                                 id="mce-EMAIL">
@@ -114,11 +117,15 @@
                     </div>
                     <div class="clear">
                         <input
+                            style="
+                                display: block;
+                                margin: auto;
+                            "
                             type="submit"
                             value="Subscribe"
                             name="subscribe"
                             id="mc-embedded-subscribe"
-                            class="button">
+                            class="button subscribe-button">
                     </div>
                     </div>
                 </form>
