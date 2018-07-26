@@ -126,8 +126,6 @@ button:focus {outline:0;}
 }
 
 #ticker p {
-  flex: 2;
-  flex-grow: 3;
   font-size: 2em;
   overflow: hidden;
   font-family: 'Roboto Mono', monospace;
@@ -141,15 +139,20 @@ button:focus {outline:0;}
   animation: scroll-left 10s linear infinite;
 }
 
+#ticker marquee {
+  font-size: 5em;
+  font-family: 'Roboto Mono', monospace;
+}
+
 #left-block {
+  width: 100%;
   overflow: hidden;
-  flex: 4;
   z-index: 2;
 }
 
 #right-block {
+  width: 100%;
   overflow: hidden;
-  flex: 4;
   z-index: 2;
 }
 
