@@ -271,9 +271,6 @@ button:focus {outline:0;}
     width: 50%;
 }
 
-#section3 {
-    text-align:center;
-}
 #sauce-text {
     font-family: 'Roboto Mono', monospace;
     font-size: 2em;

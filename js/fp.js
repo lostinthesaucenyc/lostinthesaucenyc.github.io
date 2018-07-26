@@ -2,8 +2,8 @@
 $(document).ready(function() { 
 
     $('#fullpage').fullpage({
-        sectionsColor: ['#F8F8F8', 'white', 'WhiteSmoke'],
-        anchors      : ['Home', 'Info', 'MailChimp'],
+        sectionsColor: ['#F8F8F8', 'white', 'white', 'WhiteSmoke'],
+        anchors      : ['Home', 'Info', 'SubInfo', 'MailChimp'],
         afterLoad    : function(anchorLink, index) {
 
             if (index === 1) {
@@ -19,7 +19,7 @@ $(document).ready(function() {
                 target.css("visibility", "visible");
             }
 
-            if(index == 3) {
+            if(index == 4) {
                 $('#work').fadeIn('slow').animate({ 
                     left: '0'
                 }, {
