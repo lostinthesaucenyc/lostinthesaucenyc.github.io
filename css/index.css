@@ -127,6 +127,7 @@ button:focus {outline:0;}
 
 #ticker p {
   flex: 2;
+  flex-grow: 3;
   font-size: 2em;
   overflow: hidden;
   font-family: 'Roboto Mono', monospace;
@@ -141,11 +142,13 @@ button:focus {outline:0;}
 }
 
 #left-block {
+  overflow: hidden;
   flex: 4;
   z-index: 2;
 }
 
 #right-block {
+  overflow: hidden;
   flex: 4;
   z-index: 2;
 }
@@ -383,8 +386,7 @@ button:focus {outline:0;}
     .mc-field-group {
         width: 100%;
     }
-    #left-block {
-    }
-    #right-block {
+    #ticker p {
+      font-size: 2.1em;
     }
 }
