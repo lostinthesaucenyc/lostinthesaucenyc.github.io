@@ -53,6 +53,7 @@ button:focus {outline:0;}
     -webkit-text-stroke-color: #000;
 }
 #home-anchor {
+    z-index: 10;
     position:absolute;
     top: 0;
     right: 10px;
@@ -75,6 +76,82 @@ button:focus {outline:0;}
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: #000;
 }
+
+#ticker-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+#left-block {
+  z-index: 2;
+  width: 30%;
+  background-color: white;
+}
+
+@keyframes ticker {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+
+  100% {
+    -webkit-transform: translate3d(-200%, 0, 0);
+    transform: translate3d(-200%, 0, 0);
+  }
+}
+
+#ticker {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  width: 80%;
+  background-color: red;
+  -webkit-animation-iteration-count: infinite; 
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-name: ticker;
+  animation-name: ticker;
+  -webkit-animation-duration: $duration;
+  animation-duration: 5s;
+}
+
+#ticker p {
+  font-size: 2em;
+}
+
+#right-block {
+  z-index: 2;
+  width: 20%;
+  background-color: white;
+}
+
+#call-to-action {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 8em;
+}
+
+#call-to-action a {
+    text-decoration: none;
+    color: #000;
+    margin: 0;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #000;
+}
+
+#call-to-action a:hover {
+    text-decoration: none;
+    color: #000;
+    margin: 0;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #000;
+}
+
 #sauce-anchor {
     position:absolute;
     bottom: 0;
