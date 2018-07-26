@@ -8,11 +8,13 @@ $(document).ready(function() {
 
             if (index === 1) {
                 initLostAnimation();
+
                 const target = $('#c');
                 target.css("visibility", "hidden");
             }
 
             if (index === 2) {
+
                 const target = $('#c');
                 target.css("visibility", "visible");
             }

@@ -3,6 +3,7 @@ const numberOfEls = 60;
 const duration = 5000;
 const delay = duration / numberOfEls;
 const gap = 20;
+let called = false;
 
 let tl = anime.timeline({
     duration: delay / 2,
@@ -46,5 +47,10 @@ function createEl(i) {
 };
 
 function initLostAnimation() {
-    for (let i = 0; i < numberOfEls; i++) createEl(i);
+    if (!called) {
+        for (let i = 0; i < numberOfEls; i++) createEl(i);
+
+        // Make sure that this animation is called once
+        called = !called;
+    }
 }
