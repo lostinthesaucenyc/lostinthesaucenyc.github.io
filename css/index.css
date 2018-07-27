@@ -426,9 +426,10 @@ button:focus {outline:0;}
         align-items: center;
     }
     #secret-images {
-        margin-top: 100px;
-        margin-bottom: 100px;
+        margin-top: 70px;
+        margin-bottom: 70px;
         visibility: visible;
+        width: 50%;
     }
     .secret-copy-item {
         font-size: 2.5em;
