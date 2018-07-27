@@ -426,6 +426,7 @@ button:focus {outline:0;}
         visibility: visible;
     }
     .secret-copy-item {
+        font-size: 2.5em;
         visibility: visible;
     }
 }
